@@ -1,4 +1,4 @@
-RocknrollcallYeoman.ApplicationController = Em.ObjectController.extend({
+RocknrollcallYeoman.ApplicationController = Em.ArrayController.extend({
   searchTerms: '',
   applicationName: function() {
     var st = this.get('searchTerms');
