@@ -35,7 +35,7 @@ require('scripts/router');
 
 Ember.Handlebars.helper('hotttnesss-badge', function(value, options) {
 	var h = parseFloat(value);
-	var hotttnesss_num = Math.round(h * 100);
+	var hotttnesss_num = Math.round(h * 10);
 	var hotttnesss_css = Math.ceil(h * 10) -1;
 	var html = "<h4>Hotness: ";
 	if (hotttnesss_num > 0) {
